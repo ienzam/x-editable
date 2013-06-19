@@ -14,7 +14,7 @@ function getFiles() {
             inputs: [
                 inputs+'date/date.js', 
                 inputs+'date/datefield.js', 
-                inputs+'date/bootstrap-datepicker/js/bootstrap-datepicker.js',
+                // inputs+'date/bootstrap-datepicker/js/bootstrap-datepicker.js',
                 inputs+'datetime/datetime.js', 
                 inputs+'datetime/datetimefield.js',
                 //don't build datetime lib, should be included manually 
@@ -22,7 +22,7 @@ function getFiles() {
                 inputs+'typeahead.js'
                 ], 
             css: [
-                inputs+'date/bootstrap-datepicker/css/datepicker.css'
+                // inputs+'date/bootstrap-datepicker/css/datepicker.css'
                //don't build datetime lib, should be included manually
                //inputs+'datetime/bootstrap-datetimepicker/css/datetimepicker.css'
                 ]
@@ -63,7 +63,7 @@ function getFiles() {
     inputs+'checklist.js',
     inputs+'html5types.js',
     inputs+'select2/select2.js',
-    inputs+'combodate/lib/combodate.js', 
+    // inputs+'combodate/lib/combodate.js', 
     inputs+'combodate/combodate.js'    
     ]; 
 
